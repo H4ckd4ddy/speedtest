@@ -3,13 +3,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Speedtest - Sellan</title>
-        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <script>
         function start(){
             document.getElementById('body').className = 'run';
             setTimeout(test, 1500);
         }
-
         function test(){
             var xhr = null; 
             if(window.XMLHttpRequest){ // Firefox et autres
@@ -50,6 +49,7 @@
                 text-decoration: inherit;
             }
             #button {
+                cursor: pointer;
                 margin-top: 15%;
                 border: solid 4px #00afd3;
                 border-radius: 100px;
